@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alert Dialog Box</string>
+    <string name="front">Open alert to change value</string>
+    <string name="alert">Alert</string>
+</resources>
