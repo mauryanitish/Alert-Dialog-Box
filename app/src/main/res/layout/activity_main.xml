@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvFront"
         android:text="@string/front"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintVertical_bias="0.2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,11 +32,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingHorizontal="40dp"
-        android:id="@+id/button"
+        android:id="@+id/buttonAlert"
         android:text="@string/alert"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvValue"
         android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSimpleList"
+        android:text="@string/simple_list"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAlert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMultiList"
+        android:text="@string/multi_list"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSimpleList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCustomAlert"
+        android:text="@string/custom"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMultiList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCustom"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCustomAlert"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

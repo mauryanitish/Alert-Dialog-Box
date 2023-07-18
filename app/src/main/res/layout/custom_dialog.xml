@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Feedback:"
+        android:background="#E2FFE3" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etFeedBack"
+        android:layout_height="wrap_content"
+        android:hint="Give any query" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/buttonSubmit"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="30sp" />
+</LinearLayout>
